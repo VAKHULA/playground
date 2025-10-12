@@ -45,11 +45,19 @@ body button {
 } */
 
 :root {
-  --lib-color: #ffffff; /* WHITE */
-  --lib-sub-color: #959794; /* SPANISH GRAY */
-  --lib-sub-background: #45433e; /* RIFLE GREEN */
-  --lib-background: #19171a; /* EERIE BLACK */
-  --lib-accent: #e9322e; /* PERMANENT GERANIUM LAKE */
+  --bella-color: #ffffff; /* WHITE */
+  --bella-sub-color: #959794; /* SPANISH GRAY */
+  --bella-sub-background: #45433e; /* RIFLE GREEN */
+  --bella-background: #19171a; /* EERIE BLACK */
+  --bella-accent: #e9322e; /* PERMANENT GERANIUM LAKE */
+  --bella-border-radius: 0;
+  --bella-spacing-vertical: 0.5rem;
+  --bella-spacing-horizontal: 1rem;
+  --bella-font-weight: 400;
+  --bella-font-size: 1rem;
+  --bella-border: none;
+  --bella-outline: 0.25rem solid var(--bella-accent);
+  --bella-line-height: 1.5;
 }
 
 html,
@@ -59,8 +67,8 @@ body {
 }
 
 body {
-  color: var(--lib-color);
-  background: var(--lib-background);
+  color: var(--bella-color);
+  background: var(--bella-background);
   font-family: departureMonoFont, Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -72,9 +80,4 @@ body h4,
 body h5,
 body h6 {
   font-family: minecraftFont, monospace, sans-serif;
-}
-
-body button {
-  font-family: minecraftFont, monospace, sans-serif;
-  font-weight: 400;
 }
