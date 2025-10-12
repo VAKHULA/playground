@@ -1,0 +1,23 @@
+a {
+  font-family: minecraftFont, monospace, sans-serif;
+  font-weight: 600;
+  color: var(--bella-accent);
+  display: inline-block;
+  position: relative;
+  outline: none;
+  scale: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  scale: 1.3;
+}
+
+a.secondary {
+  color: var(--bella-sub-color);
+}
+
+a.contrast {
+  color: var(--bella-color);
+}
