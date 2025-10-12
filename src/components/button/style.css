@@ -1,0 +1,61 @@
+[role='button'],
+[type='button'],
+[type='file'],
+[type='reset'],
+[type='submit'],
+button {
+  font-family: minecraftFont, monospace, sans-serif;
+  font-weight: 600;
+  font-size: var(--bella-font-size);
+  line-height: var(--bella-line-height);
+  text-align: center;
+  text-decoration: none;
+  color: var(--bella-color);
+  background-color: var(--bella-accent);
+  padding: var(--bella-spacing-vertical) var(--bella-spacing-horizontal);
+  margin: var(--bella-spacing-vertical) var(--bella-spacing-horizontal);
+  border-radius: var(--bella-border-radius);
+  border: var(--bella-border);
+  outline: none;
+  cursor: pointer;
+}
+
+[role='button']:hover,
+[role='button']:focus,
+[type='button']:hover,
+[type='button']:focus,
+[type='file']:hover,
+[type='file']:focus,
+[type='reset']:hover,
+[type='reset']:focus,
+[type='submit']:hover,
+[type='submit']:focus,
+button:hover,
+button:focus {
+  outline: var(--bella-outline);
+  outline-offset: 0.25rem;
+}
+
+[role='button'].secondary,
+[type='button'].secondary,
+[type='file'].secondary,
+[type='reset'].secondary,
+[type='submit'].secondary,
+button.secondary {
+  color: var(--bella-sub-color);
+  background-color: var(--bella-sub-background);
+  outline-color: var(--bella-sub-background);
+}
+
+[role='button'].contrast,
+[type='button'].contrast,
+[type='file'].contrast,
+[type='reset'].contrast,
+[type='submit'].contrast,
+button.contrast {
+  color: var(--bella-color);
+  background-color: var(--bella-background);
+  outline-color: var(--bella-color);
+  border: var(--bella-outline);
+  border-color: var(--bella-color);
+}
