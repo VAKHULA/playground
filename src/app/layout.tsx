@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
-import '@picocss/pico/css/pico.amber.min.css';
+
 import './globals.css';
 
 const minecraftFont = localFont({

@@ -1,0 +1,44 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Home page" />
+
+<div className="sb-container">
+  <div className='sb-section-title'>
+    # Configure your project
+
+    Because Storybook works separately from your app, you'll need to configure it for your specific stack and setup. Below, explore guides for configuring Storybook with popular frameworks and tools. If you get stuck, learn how you can ask for help from our community.
+  </div>
+  <div className="sb-section">
+    <div className="sb-section-item">
+      <h4 className="sb-section-item-heading">Add styling and CSS</h4>
+      <p className="sb-section-item-paragraph">Like with web applications, there are many ways to include CSS within Storybook. Learn more about setting up styling within Storybook.</p>
+    </div>
+    <div className="sb-section-item">
+      <h4 className="sb-section-item-heading">Provide context and mocking</h4>
+      <p className="sb-section-item-paragraph">Often when a story doesn't render, it's because your component is expecting a specific environment or context (like a theme provider) to be available.</p>
+    </div>
+    <div className="sb-section-item">
+      <div>
+        <h4 className="sb-section-item-heading">Load assets and resources</h4>
+        <p className="sb-section-item-paragraph">To link static files (like fonts) to your projects and stories, use the
+        `staticDirs` configuration option to specify folders to load when
+        starting Storybook.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  {`
+  .sb-container {
+    margin-bottom: 48px;
+  }
+
+  .sb-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  `}
+</style>

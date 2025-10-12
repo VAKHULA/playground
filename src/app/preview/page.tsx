@@ -1,8 +1,5 @@
 import { Camera } from 'lucide-react';
 
-import { ThemeSwitcher } from '@/components/ThemeSwitcher';
-import { Modal } from '@/components/Modal';
-
 export default function PreviewPage() {
   return (
     <div>
@@ -12,7 +9,6 @@ export default function PreviewPage() {
           <Camera color="red" size={48} />
           <p>A pure HTML example, without dependencies.</p>
         </hgroup>
-        <ThemeSwitcher />
         <p>
           Tooltip on a{' '}
           <a href="#" data-tooltip="Tooltip">
@@ -416,7 +412,6 @@ export default function PreviewPage() {
           <article aria-busy="true"></article>
           <button aria-busy="true">Please wait…</button>
         </section>
-        <Modal />
       </main>
       <footer className="container">
         <small>

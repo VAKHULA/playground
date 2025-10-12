@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --pico-border-radius: 0.5rem;
   --pico-border-width: 0.11rem;
   --pico-outline-width: 0.125rem;
@@ -42,4 +42,39 @@ body button {
   html {
     color-scheme: dark;
   }
+} */
+
+:root {
+  --lib-color: #ffffff; /* WHITE */
+  --lib-sub-color: #959794; /* SPANISH GRAY */
+  --lib-sub-background: #45433e; /* RIFLE GREEN */
+  --lib-background: #19171a; /* EERIE BLACK */
+  --lib-accent: #e9322e; /* PERMANENT GERANIUM LAKE */
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--lib-color);
+  background: var(--lib-background);
+  font-family: departureMonoFont, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: minecraftFont, monospace, sans-serif;
+}
+
+body button {
+  font-family: minecraftFont, monospace, sans-serif;
+  font-weight: 400;
 }
