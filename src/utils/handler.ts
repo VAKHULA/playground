@@ -1,0 +1,1 @@
+const handler = (x) => ({ next: (f) => boxHandler(f(x)), done: (f) => f(x) });

@@ -1,11 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { fn } from 'storybook/test';
 
-import { Button } from './index';
+import { Article } from './index';
 
 const meta = {
-  title: 'Components/Button',
-  component: Button,
+  title: 'Components/Article',
+  component: Article,
   parameters: {
     layout: 'centered',
   },
@@ -14,7 +13,7 @@ const meta = {
     children: { control: 'text' },
   },
   args: {},
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof Article>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
@@ -22,14 +21,12 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     children: 'true',
-    onClick: fn(),
   },
 };
 
 export const Secondary: Story = {
   args: {
     children: 'Button',
-    onClick: fn(),
     className: 'secondary',
   },
 };
@@ -37,7 +34,6 @@ export const Secondary: Story = {
 export const Contrast: Story = {
   args: {
     children: 'Button',
-    onClick: fn(),
     className: 'contrast',
   },
 };
