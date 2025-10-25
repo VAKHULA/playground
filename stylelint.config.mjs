@@ -2,6 +2,6 @@
 export default {
   "extends": ["stylelint-config-standard"],
   "rules": {
-    "color-hex-length": "never",
+    "color-hex-length": "long",
   }
 };
