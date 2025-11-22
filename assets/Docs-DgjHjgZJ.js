@@ -1,4 +1,4 @@
-import{j as e}from"./jsx-runtime-ByQ7gx69.js";import{useMDXComponents as o}from"./index-CFauBprz.js";import{M as s,T as a,S as c,a as n}from"./blocks-DQ7E-2iC.js";import{I as m}from"./Component.stories-CeOrsjmX.js";import"./iframe-C4usoJgl.js";import"./preload-helper-PPVm8Dsz.js";function r(t){const i={a:"a",...o(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(s,{of:m}),`
+import{j as e}from"./jsx-runtime-CdX4SjbB.js";import{useMDXComponents as o}from"./index-DvnlRIZf.js";import{M as s,T as a,S as c,a as n}from"./blocks-qGU9KzK1.js";import{I as m}from"./Component.stories-CUtsj89r.js";import"./iframe-Bfk5yZxS.js";import"./preload-helper-PPVm8Dsz.js";function r(t){const i={a:"a",...o(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(s,{of:m}),`
 `,e.jsx(a,{children:"react-infinite-viewer"}),`
 `,e.jsxs(c,{children:["React, typescript, MIT, ",e.jsx(i.a,{href:"https://www.npmjs.com/package/react-infinite-viewer/v/0.7.0",rel:"nofollow",children:"npm"})]}),`
 `,e.jsx(n,{dark:!0,language:"tsx",code:`
