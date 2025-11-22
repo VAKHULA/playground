@@ -1,7 +1,7 @@
 <!doctype html>
 <!--suppress HtmlUnknownTarget -->
 <html lang="en">
-  <head><script type="module" src="./vite-inject-mocker-entry.js"></script>
+  <head><script type="module" src="/vite-inject-mocker-entry.js"></script>
     <meta charset="utf-8" />
     <title>Storybook</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -528,10 +528,52 @@
     console.warn('unable to connect to top frame for connecting dev tools');
   }
 </script>
+<style>
+@font-face {
+  font-family: Minecraft;
+  src: url(/fonts/MinecraftRegular.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Minecraft;
+  src: url(/fonts/MinecraftItalic.woff2);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: Minecraft;
+  src: url(/fonts/MinecraftBold.woff2);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Minecraft;
+  src: url(/fonts/MinecraftBoldItalic.woff2);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: DepartureMono;
+  src: url(/fonts/DepartureMono-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+body * {
+  font-family: DepartureMono !important;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: Minecraft !important;
+}
+#storybook-root {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+</style>
 
-    <script type="module" crossorigin src="./assets/iframe-DQroajse.js"></script>
+    <script type="module" crossorigin src="./assets/iframe-C4usoJgl.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/preload-helper-PPVm8Dsz.js">
-    <link rel="stylesheet" crossorigin href="./assets/iframe-CuvBu_ZL.css">
+    <link rel="stylesheet" crossorigin href="./assets/iframe-BBEePxKG.css">
   </head>
 
   <body>
