@@ -1,5 +1,0 @@
-import{j as r}from"./jsx-runtime-B74jkvHX.js";import"./iframe-B19X1zb2.js";import"./preload-helper-PPVm8Dsz.js";const m="_main_1cc33_1",p="_words1_1cc33_13",_="_words2_1cc33_14",l="_words3_1cc33_15",w="_move_1cc33_1",a={main:m,words1:p,words2:_,words3:l,move:w},o=({text:n})=>{const c=n.split(".").map(s=>s.split(""));return r.jsx("main",{className:a.main,children:c.map((s,t)=>r.jsx("p",{className:`${a[`words${t+1}`]}`,children:s.map((d,i)=>r.jsx("span",{children:d},i))},t))})};o.__docgenInfo={description:"",methods:[],displayName:"Page",props:{text:{required:!0,tsType:{name:"string"},description:""}}};const F={title:"Experiments/text_shadow",component:o,parameters:{layout:"centered"},tags:["!autodocs"],argTypes:{},args:{}},e={args:{text:"Fail Fast. Learn Faster.Build Better."}};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`{
-  args: {
-    text: 'Fail Fast. Learn Faster.Build Better.'
-  }
-}`,...e.parameters?.docs?.source}}};const h=["Preview"];export{e as Preview,h as __namedExportsOrder,F as default};
