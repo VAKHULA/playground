@@ -1,0 +1,9 @@
+import{j as a}from"./jsx-runtime-zxgG-dDK.js";import{r}from"./iframe-Dj5JOaQo.js";import{a as n}from"./index-Bd8USO0J.js";import"./preload-helper-PPVm8Dsz.js";import"./single-value-COlR6kyP.js";const o=()=>(r.useEffect(()=>{let e=document.querySelector("link[rel~='icon']");e||(e=document.createElement("link"),e.rel="icon",document.head.appendChild(e)),e.href="/earth/day-night/tile0.png",n(0,52,{duration:5,ease:"linear",repeat:1/0,onUpdate:t=>e.href=`/earth/day-night/tile${Math.round(t)}.png`})},[]),r.useEffect(()=>{const e=document.querySelector("#earth1");n(0,52,{duration:5,ease:"linear",repeat:1/0,onUpdate:t=>e.src=`/earth/day/tile${Math.round(t)}.png`})},[]),r.useEffect(()=>{const e=document.querySelector("#earth2");n(0,52,{duration:5,ease:"linear",repeat:1/0,onUpdate:t=>e.src=`/earth/night/tile${Math.round(t)}.png`})},[]),r.useEffect(()=>{const e=document.querySelector("#earth3");n(0,52,{duration:5,ease:"linear",repeat:1/0,onUpdate:t=>e.src=`/earth/day-night/tile${Math.round(t)}.png`})},[]),a.jsxs("div",{style:{display:"flex",gap:"1rem"},children:[a.jsx("img",{alt:"earth",id:"earth1",src:"/earth/day/tile0.png"}),a.jsx("img",{alt:"earth",id:"earth2",src:"/earth/night/tile0.png"}),a.jsx("img",{alt:"earth",id:"earth3",src:"/earth/day-night/tile0.png"})]}));o.__docgenInfo={description:"",methods:[],displayName:"FaviconAnimation"};const m={title:"Experiments/favicon-animation",component:o,parameters:{},tags:["!autodocs"],argTypes:{},args:{},globals:{backgrounds:{value:"gray",grid:!1}}},i={args:{},globals:{backgrounds:{value:"dark"}}};i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
+  args: {},
+  globals: {
+    // 👇 Override background value for this story
+    backgrounds: {
+      value: 'dark'
+    }
+  }
+}`,...i.parameters?.docs?.source}}};const g=["Preview"];export{i as Preview,g as __namedExportsOrder,m as default};
