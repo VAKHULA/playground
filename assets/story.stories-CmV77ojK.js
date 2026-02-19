@@ -1,0 +1,1 @@
+const r=()=>null,s={title:"Experiments/Cube",component:r,parameters:{layout:"centered"},tags:["!autodocs"],argTypes:{},args:{}},e={};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:"{}",...e.parameters?.docs?.source}}};const t=["Preview"];export{e as Preview,t as __namedExportsOrder,s as default};
